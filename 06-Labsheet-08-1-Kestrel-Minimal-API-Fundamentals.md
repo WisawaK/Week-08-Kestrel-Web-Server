@@ -85,6 +85,7 @@
    ```
 
 3. บันทึกไฟล์ สั่ง `dotnet run` อีกครั้ง แล้วกด Refresh บนเบราว์เซอร์เพื่อดูผลลัพธ์
+<img width="617" height="401" alt="image" src="https://github.com/user-attachments/assets/d71a1a38-8406-48e8-ac3a-fab8b6b9ff8e" />
 
 ---
 
