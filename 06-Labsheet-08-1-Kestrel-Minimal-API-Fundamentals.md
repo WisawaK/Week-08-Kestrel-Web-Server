@@ -105,6 +105,7 @@
 
 2. สั่ง `dotnet run` จากนั้นเปิดเบราว์เซอร์ไปที่  
      `http://localhost:5000/api/status`
+<img width="851" height="142" alt="image" src="https://github.com/user-attachments/assets/9cf58bc6-1bed-4ca7-818f-50a0bf82c548" />
 
 3. **สิ่งที่เห็น** หน้าจอเบราว์เซอร์จะแสดงผลเป็น JSON โครงสร้างสมบูรณ์
    ```json
