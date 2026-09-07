@@ -179,7 +179,23 @@
    - `timestamp`= เวลาปัจจุบันของเซิร์ฟเวอร์ (`DateTime.Now.ToString(...)`)
 
  **หลักฐานการส่งงาน** บันทึกภาพหน้าจอเบราว์เซอร์ที่เปิดแสดงผล JSON จาก `/api/student` พร้อมโค้ดใน VS Code ลงในรายงานผลการทดลอง
+<img width="436" height="240" alt="image" src="https://github.com/user-attachments/assets/00e163a5-d4fc-4ae1-882c-9b43f8ccc82c" />
+ ```
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
 
+app.MapGet("/api/student", () => {
+    return Results.Ok(new {
+        studentId = "67030215",                    
+        studentName = "Wisawa Kamjorn",           
+        faculty = "Computer technology",
+        targetSensor = "DHT22",                        
+        timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
+    });
+});
+
+app.Run();
+ ```
 ---
 
 ## คำถามท้ายการทดลอง (Review Questions)
