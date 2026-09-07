@@ -161,6 +161,7 @@
 [xx:xx:xx] LED Control: on
 [xx:xx:xx] LED Control: off
 ```
+<img width="732" height="326" alt="image" src="https://github.com/user-attachments/assets/7744db1a-96dd-4234-ba74-d353dfb28164" />
 
 
 ---
